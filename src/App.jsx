@@ -1,10 +1,10 @@
 import React from "react";
-import UltimateCalculator from "./UltimateCalculator"; // Import your UltimateCalculator component
+import UltimateCalculator from "./UltimateCalculator"; 
 
 function App() {
   return (
     <div className="App">
-      <UltimateCalculator /> {/* Render the UltimateCalculator */}
+      <UltimateCalculator /> 
     </div>
   );
 }
