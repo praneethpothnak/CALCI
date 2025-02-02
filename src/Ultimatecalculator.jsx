@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-// Define the calculator buttons
 const buttons = [
   "C", "±", "%", "÷", 
   "7", "8", "9", "×", 
@@ -15,7 +14,6 @@ export default function UltimateCalculator() {
   const [prevValue, setPrevValue] = useState(null);
   const [operator, setOperator] = useState(null);
 
-  // Handle the button click events
   const handleButtonClick = (value) => {
     if (value === "C") {
       setDisplay("0");
